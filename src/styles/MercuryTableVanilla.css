@@ -1,0 +1,44 @@
+.date-cell-hidden {
+  visibility: hidden;
+}
+
+tr:hover .date-cell-hidden {
+  visibility: visible;
+}
+
+.wrapper {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    flex-grow: 1;
+    overflow-x: hidden;
+}
+
+.table-wrapper {
+    overflow-x: scroll;
+    width: 100%;
+}
+
+table {
+    min-width: 760px;
+    width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+thead {
+  text-align: left;
+}
+
+thead :nth-child(3) {
+  text-align: right;
+}
+
+tr td:nth-child(3) {
+  text-align: right;
+}
