@@ -1,44 +1,55 @@
-.date-cell-hidden {
+.mercury-table .date-cell-hidden {
   visibility: hidden;
 }
 
-tr:hover .date-cell-hidden {
+.mercury-table tr:hover .date-cell-hidden {
   visibility: visible;
 }
 
-.wrapper {
+.mercury-table .wrapper {
     display: flex;
     height: 100%;
     width: 100%;
 }
 
-.content {
+.mercury-table .content {
     flex-grow: 1;
     overflow-x: hidden;
 }
 
-.table-wrapper {
+.mercury-table .table-wrapper {
     overflow-x: scroll;
     width: 100%;
 }
 
-table {
+.mercury-table table {
     min-width: 760px;
     width: 100%;
 }
 
-h1 {
+.mercury-table h1 {
   text-align: center;
 }
 
-thead {
+.mercury-table thead {
   text-align: left;
 }
 
-thead :nth-child(3) {
+.mercury-table thead :nth-child(3) {
   text-align: right;
 }
 
-tr td:nth-child(3) {
+.mercury-table tr td:nth-child(3) {
   text-align: right;
+}
+
+.mercury-table th,
+.mercury-table td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 3px;
+}
+
+.mercury-table p {
+  text-align: center;
+  padding-bottom: 7px;
 }

@@ -1,24 +1,17 @@
-import { useState } from 'react'
 import reactLogo from '../assets/react.svg'
 import viteLogo from '/vite.svg'
 import '../styles/App.css'
 import { useNavigate } from 'react-router'
+import "../styles/styles.css"
 
 function Root() {
 
   const navigate = useNavigate();
 
   return (
-    <div className='parent'>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
+    <div className='parent' class="text-center">
+      <h1 class="pb-3">Unifize Assignment</h1>
+      <p class="pb-5">Read the pdf to know more about the implementations :)</p>
       <div className="card">
         <button onClick={() => navigate("/vanilla_table_page")}>
           View Vanilla Table
