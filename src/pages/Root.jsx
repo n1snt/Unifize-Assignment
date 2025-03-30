@@ -24,6 +24,11 @@ function Root() {
           View Vanilla Table
         </button>
       </div>
+      <div className="card">
+        <button onClick={() => navigate("/styled_table_page")}>
+          View Styled Table
+        </button>
+      </div>
     </div>
   )
 }
