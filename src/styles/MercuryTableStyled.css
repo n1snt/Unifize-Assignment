@@ -1,0 +1,7 @@
+.date-cell-hidden {
+  visibility: hidden;
+}
+
+tr:hover .date-cell-hidden {
+  visibility: visible;
+}
