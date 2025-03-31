@@ -22,6 +22,11 @@ function Root() {
           View Styled Table
         </button>
       </div>
+      <div className="card">
+        <button onClick={() => navigate("/state_styled_table_page")}>
+          View State Styled Table
+        </button>
+      </div>
     </div>
   )
 }

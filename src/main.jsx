@@ -5,6 +5,7 @@ import Root from './pages/Root.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router'
 import VanillaTablePage from './pages/VanillaTablePage.jsx'
 import StyledTablePage from './pages/StyledTablePage.jsx'
+import StyledStateTablePage from './pages/StyledStateTablePage.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/" element={<Root />} />
         <Route path="/vanilla_table_page" element={<VanillaTablePage />} />
         <Route path="/styled_table_page" element={< StyledTablePage />} />
+        <Route path="/state_styled_table_page" element={< StyledStateTablePage />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
