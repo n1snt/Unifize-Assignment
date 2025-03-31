@@ -9,7 +9,7 @@ Ensure you have the following installed:
 1️⃣ Clone the Repository
 
     git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    cd Unifize-Assignment
 
 2️⃣ Install Dependencies
 
@@ -17,7 +17,7 @@ Ensure you have the following installed:
 
 3️⃣ Run the Project
 
-    npm start
+    npm run dev
 
 This will start the development server. Open the displayed http://localhost:<Port> link in your terminal.
 
