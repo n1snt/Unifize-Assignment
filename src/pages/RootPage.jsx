@@ -1,17 +1,15 @@
-import reactLogo from '../assets/react.svg'
-import viteLogo from '/vite.svg'
 import '../styles/App.css'
 import { useNavigate } from 'react-router'
 import "../styles/styles.css"
 
-function Root() {
+function RootPage() {
 
   const navigate = useNavigate();
 
   return (
     <div className='parent' class="text-center">
       <h1 class="pb-3">Unifize Assignment</h1>
-      <p class="pb-5">Read the pdf to know more about the implementations :)</p>
+      <p class="pb-5">Read the pdf to know more about the implementations.</p>
       <div className="card">
         <button onClick={() => navigate("/vanilla_table_page")}>
           View Vanilla Table
@@ -31,4 +29,4 @@ function Root() {
   )
 }
 
-export default Root;
+export default RootPage;
