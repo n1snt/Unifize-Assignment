@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { fireEvent, render, screen, waitFor, within } from "@testing-library/react";
-import MercuryTableStateStyled from "../components/MercuryTableStateStyled";
+import MercuryTableStateStyled from "../../components/MercuryTableStateStyled";
 import userEvent from "@testing-library/user-event";
 
 const mockData = [

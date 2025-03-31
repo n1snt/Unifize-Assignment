@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import MercuryTableStyled from "../components/MercuryTableStyled";
+import MercuryTableStyled from "../../components/MercuryTableStyled";
 
 const mockData = [
   { date: new Date("2024-03-01"), description: "Amazon Purchase", amount: -50, category: "Shopping", details: "Credit Card" },
